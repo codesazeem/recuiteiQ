@@ -47,6 +47,9 @@ export default async function Home() {
               <Link href="/dashboard" className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
                 Open dashboard
               </Link>
+              <Link href="/dashboard/candidates/add" className="inline-flex items-center justify-center rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-indigo-700">
+                Upload CV
+              </Link>
               <Link href="#features" className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:border-slate-300 hover:bg-slate-50">
                 Learn more <ArrowRight size={16} />
               </Link>
